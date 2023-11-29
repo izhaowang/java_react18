@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+
+
+  #root {
+    height: 100%;
+    color: blue;
+  }
+
+
+
+  .categoryCard {
+    .ant-card-head {
+      height: auto;
+    }
+  }
+
+
+  .show {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
